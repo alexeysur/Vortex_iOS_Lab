@@ -19,7 +19,7 @@ func makeItCool(_ string: String) -> String {
           case "o": result += "0"
           case "t": result += "+"
           default:
-            result += symbol
+            result += String(char)
         }
     }
     return result
@@ -27,4 +27,4 @@ func makeItCool(_ string: String) -> String {
 
 print(makeItCool("today"))
 print(makeItCool(""))
-print(makeItCool("Swift is awesame"))
+print(makeItCool("SwiFt is awesame"))
